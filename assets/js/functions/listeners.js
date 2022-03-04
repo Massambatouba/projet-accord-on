@@ -30,12 +30,12 @@ var listenerFunctions = {
 var setupListeners = () =>{
     iconNav.onmouseover = listenerFunctions.openNav
     nav.onmouseleave = listenerFunctions.closeNav
-    /*prev.onclick = listenerFunctions.prevSlide
-    next.onclick = listenerFunctions.nextSlide
-    for (let index = 0; index < listes.length; index++) {
-        const li = listes[index];
-        li.onclick = listenerFunctions.closeNav
-    }*/
+    // prev.onclick = listenerFunctions.prevSlide
+    // next.onclick = listenerFunctions.nextSlide
+    // for (let index = 0; index < listes.length; index++) {
+    //     const li = listes[index];
+    //     li.onclick = listenerFunctions.closeNav
+    // }
 
 
 
